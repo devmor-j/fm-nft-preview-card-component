@@ -18,12 +18,18 @@
 
 <body class="bg-nft-dark-blue-main text-nft-white font-Outfit">
   <div class="container mx-auto">
-    <main>
+    <main class="min-h-screen flex items-center justify-center">
       <!-- card -->
-      <div class="max-w-sm p-6 bg-nft-dark-blue-card text-nft-soft-blue rounded-2xl font-light flex flex-col gap-4">
+      <div class="max-w-[22rem] p-6 bg-nft-dark-blue-card text-nft-soft-blue rounded-2xl font-light flex flex-col gap-4">
+
+        <!-- header image -->
+        <div class="card--image relative w-full rounded-lg hover:bg-nft-cyan cursor-pointer">
+          <img class="block w-full rounded-lg hover:opacity-50 transition" src="./images/image-equilibrium.jpg" alt="Equilibrium">
+          <img class="card--image-icon hidden absolute inset-0 m-auto pointer-events-none" src="./images/icon-view.svg" alt="View">
+        </div>
 
         <!-- header content -->
-        <h1 class="text-[1.375rem] text-nft-white font-semibold">Equilibrium #3429</h1>
+        <h1 class="text-[1.375rem] text-nft-white font-semibold hover:text-nft-cyan transition-colors cursor-pointer">Equilibrium #3429</h1>
         <p class="text-lg">Our Equilibrium collection promotes balance and calm.</p>
 
         <!-- balance info -->
@@ -44,7 +50,7 @@
         <!-- profile -->
         <div class="flex gap-4 items-center pb-2">
           <img class="w-10 border rounded-full" src="./images/image-avatar.png" alt="Avatar">
-          <p>Creation of <span class="text-nft-white">Jules Wyvern</span></p>
+          <p>Creation of <span class="text-nft-white hover:text-nft-cyan transition-colors cursor-pointer">Jules Wyvern</span></p>
         </div>
 
       </div>
