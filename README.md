@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/devmor-j/fm-qr-code-component)
-- Live Site URL: [Github Pages](https://devmor-j.github.io/fm-qr-code-component/)
+- Solution URL: [Github Repo](https://github.com/devmor-j/fm-nft-preview-card-component)
+- Live Site URL: [Github Pages](https://devmor-j.github.io/fm-nft-preview-card-component/)
 
 ## My process
 
